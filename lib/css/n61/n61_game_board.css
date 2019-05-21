@@ -1,0 +1,320 @@
+.n61_general_div div[name=game_general] div[name=game_board]
+	{
+	width: 600px;
+	height: 500px;
+	position: relative;
+	background-color: #805f29;
+	background-image: url("/img/n61/game_board/board.png");
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-left: 2px solid #805f29;
+	border-top: 2px solid #805f29;
+	border-bottom: 2px solid #805f29;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_delimiter]
+	{
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #73522a;
+	top: 0px;
+	left: 50%;
+	margin-left: -2px;
+	z-index: 4;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_bg_cell_null]
+	{
+	position: absolute;
+	width: 24px;
+	height: 500px;
+	background-color: #84653e;
+	top: 0px;
+	left: 100%;
+	margin-left: 0px;
+	margin-top: -2px;
+	z-index: 4;
+	border-top: 2px solid #3a2b12;
+	border-bottom: 2px solid #3a2b12;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_null_pos_white]
+	{
+	position: absolute;
+	width: 16px;
+	height: 243px;
+	background-image: url("/img/n61/game_board/cell_null_pos.png");
+	top: 0px;
+	left: 100%;
+	margin-left: 2px;
+	margin-top: 2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #3a2b12;
+	cursor: pointer;
+	z-index: 15;
+	/*box-shadow: 2px 2px 1px #2f1f09;*/
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_null_pos_white] div[name=div_null_pos_white_chip]
+	{
+	position: relative;
+	width: 100%;
+	height: 8px;
+	margin-bottom: 3px;
+	background-color: #eaaf11;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_null_pos_black]
+	{
+	position: absolute;
+	width: 16px;
+	height: 243px;
+	background-image: url("/img/n61/game_board/cell_null_pos.png");
+	top: 100%;
+	left: 100%;
+	margin-left: 2px;
+	margin-top: -249px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #3a2b12;
+	cursor: pointer;
+	z-index: 15;
+	/*box-shadow: 2px 2px 1px #3c2911;*/
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_null_pos_black] div[name=div_null_pos_black_chip]
+	{
+	position: relative;
+	width: 100%;
+	height: 8px;
+	margin-bottom: 3px;
+	background-color: #643806;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_but_reset_chip]
+	{
+	position: absolute;
+	width: 22px;
+	height: 150px;
+	top: 50%;
+	left: 50%;
+	margin-left: -12px;
+	margin-top: -75px;
+	background-color: #a5a73c;
+	text-align: center;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=div_but_reset_chip] button
+	{
+	width: 20px;
+	height: 148px;
+	margin: auto;
+	margin-top: 1px;
+	cursor: pointer;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos_guide]
+	{
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	z-index: 5;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos_guide] div[name=guide]
+	{
+	width: 48px;
+	height: 150px;
+	position: relative;
+	float: left;
+	margin-right: 2px;
+	margin-top: 0px;
+	background-image: url("/img/n61/game_board/guide_up.png");
+	z-index: 5;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos_guide]
+	{
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	margin-top: -138px;
+	z-index: 5;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos_guide] div[name=guide]
+	{
+	width: 48px;
+	height: 150px;
+	position: relative;
+	float: left;
+	margin-right: 2px;
+	background-image: url("/img/n61/game_board/guide_down.png");
+	z-index: 5;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos]
+	{
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos]
+	{
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	margin-top: -25px;
+	z-index: 10;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos] div[name=cell]
+	{
+	width: 48px;
+	height: 100%;
+	background-image: url("/img/n61/game_board/cell_up.png");
+	margin-right: 2px;
+	position: relative;
+	float: left;
+	text-align: center;
+	box-shadow: 2px -2px 1px #4a280b;
+	z-index: 10;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos] div[name=cell]
+	{
+	width: 48px;
+	height: 100%;
+	background-image: url("/img/n61/game_board/cell_down.png");
+	margin-right: 2px;
+	position: relative;
+	float: left;
+	text-align: center;
+	box-shadow: 2px 2px 1px #4a280b;
+	z-index: 10;
+	}
+
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos] div[name=cell] div[name=div_dop_cap_cell_up]
+	{
+	position: relative;
+	width: 28px;
+	height: 100%;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 2px;
+	z-index: 15;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos] div[name=cell] div[name=div_dop_cap_cell_down]
+	{
+	position: relative;
+	width: 28px;
+	height: 100%;
+	margin: auto;
+	margin-top: -55px;
+	cursor: pointer;
+	z-index: 15;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos] div[name=cell] div[name=div_cap_cell_up]
+	{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 40;
+	margin-bottom: -16px;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos] div[name=cell] div[name=div_cap_cell_down]
+	{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-top: 18px;
+	z-index: 40;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos] div[name=cell] div[name=div_cap_cell_up] div[name=div_cutout_cell_up]
+	{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	top: 11px;
+	left: 50%;
+	margin-left: -14px;
+	margin-top: 0px;
+	border-radius: 14px;
+	cursor: pointer;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos] div[name=cell] div[name=div_cap_cell_down] div[name=div_cutout_cell_down]
+	{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	top: 0px;
+	left: 50%;
+	margin-left: -14px;
+	margin-top: -14px;
+	border-radius: 14px;
+	cursor: pointer;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=up_pos] div[name=cell] div[name=cell_chip]
+	{
+	width: 28px;
+	height: 28px;
+	position: relative;
+	margin: auto;
+	margin-top: 1px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 14px;
+	z-index: 50;
+	}
+	
+.n61_general_div div[name=game_general] div[name=game_board] div[name=down_pos] div[name=cell] div[name=cell_chip]
+	{
+	position: relative;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	cursor: pointer;
+	margin: auto;
+	margin-top: -56px;
+	border-radius: 14px;
+	z-index: 50;
+	}
+	
+.n61_white_chip
+	{
+	background-image: url("/img/n61/game_board/chip_white.png");
+	}
+	
+.n61_black_chip
+	{
+	background-image: url("/img/n61/game_board/chip_black.png");
+	}
+	
+.n61_selected_chip_b
+	{
+	background-image: url("/img/n61/game_board/chip_selected_black.png") !important;
+	}
+	
+.n61_selected_chip_w
+	{
+	background-image: url("/img/n61/game_board/chip_selected_white.png") !important;
+	}

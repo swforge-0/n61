@@ -1,0 +1,14 @@
+.fouw_general_div
+	{
+	width: 900px;
+	height: 400px;
+	position: relative;
+	padding-top: 200px;
+	margin: auto;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D3D1CA;
+	text-align: center;
+	font-size: 20px;
+	}

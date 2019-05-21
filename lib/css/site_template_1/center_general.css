@@ -1,0 +1,22 @@
+.site_1_div_center_content_left
+	{
+	min-width: 725px;
+	max-width: 79%;
+	min-height: 700px;
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-color: #D3D1CA;
+	border-width: 1px;
+	}
+	
+.site_1_div_center_content_right
+	{
+	width: 250px;
+	min-height: 700px;
+	position: relative;
+	float: right;
+	border-style: solid;
+	border-color: #D3D1CA;
+	border-width: 1px;
+	}
